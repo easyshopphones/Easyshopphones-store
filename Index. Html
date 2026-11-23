@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EasyShop Phones</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0b1020;color:white;font-family:Arial,sans-serif}
+header{padding:22px;background:#111a30;display:flex;justify-content:space-between}
+.logo{font-size:22px;font-weight:bold;color:#55a5ff}
+nav a{color:white;text-decoration:none;margin-left:10px;font-size:13px}
+.hero{text-align:center;padding:65px 20px;background:linear-gradient(140deg,#152d55,#101426)}
+.hero h1{font-size:34px}
+.hero p{color:#c4d2e8;line-height:1.6}
+.btn{display:inline-block;background:#2379ed;color:white;padding:14px 24px;border-radius:8px;text-decoration:none;font-weight:bold}
+section{padding:35px 18px;max-width:1000px;margin:auto}
+h2{text-align:center}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.product{background:#151f35;padding:22px;border-radius:14px;text-align:center;border:1px solid #273b5d}
+.phone{font-size:55px}
+.product p{color:#bdc9dc}
+.product a{color:#68adff;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">EasyShop Phones</div>
+<nav>
+<a href="#produse">Telefoane</a>
+<a href="#rate">Rate</a>
+<a href="#contact">Comandă</a>
+</nav>
+</header>
+<div class="hero">
+<h1>Telefonul dorit. Plata în rate.</h1>
+<p>Descoperă telefoane moderne și solicită o ofertă de cumpărare în rate.</p>
+<a class="btn" href="#produse">Descoperă telefoanele</a>
+</div><section id="produse">
+<h2>Telefoanele noastre</h2>
+<div class="products">
+<div class="product">
+<div class="phone">📱</div>
+<h3>Samsung Galaxy</h3>
+<p>Telefoane Samsung</p>
+<a href="#contact">Solicită ofertă</a>
+</div>
+<div class="product">
+<div class="phone">📱</div>
+<h3>Apple iPhone</h3>
+<p>Modele iPhone</p>
+<a href="#contact">Solicită ofertă</a>
+</div>
+<div class="product">
+<div class="phone">📱</div>
+<h3>Xiaomi</h3>
+<p>Telefoane Xiaomi</p>
+<a href="#contact">Solicită ofertă</a>
+</div>
+<div class="product">
+<div class="phone">📱</div>
+<h3>Alte modele</h3>
+<p>Solicită modelul dorit</p>
+<a href="#contact">Solicită ofertă</a>
+</div>
+</div>
+</section>
+
+<section id="rate">
+<h2>Cumpără în rate</h2>
+<div class="info">
+<h3>Telefonul dorit, în rate!</h3>
+<p>Solicită o ofertă și află condițiile de finanțare disponibile.</p>
+</div>
+</section>
+
+<section id="contact">
+<h2>Solicită o comandă</h2>
+<form>
+<input type="text" placeholder="Nume și prenume" required>
+<input type="email" placeholder="Adresa de email" required>
+<input type="tel" placeholder="Număr de telefon" required>
+<select required>
+<option value="">Alege telefonul</option>
+<option>Samsung</option>
+<option>iPhone</option>
+<option>Xiaomi</option>
+<option>Alt model</option>
+</select>
+<textarea placeholder="Ce telefon dorești?"></textarea>
+<button type="button">Trimite solicitarea</button>
+</form>
+</section>
+
+<footer>
+© 2026 EasyShop Phones
+</footer>
+</body>
+</html>
